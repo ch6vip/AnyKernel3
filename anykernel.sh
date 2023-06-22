@@ -4,17 +4,15 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Quax Kernel By acervenky
+kernel.string=259412081
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
-do.cleanuponabort=1
-device.name1=cepheus
-device.name2=raphael
-device.name3=raphaelin
-device.name4=
-device.name5=
-supported.versions=10
+do.cleanuponabort=0
+device.name1=raphael
+device.name2=raphaelin
+device.name3=cepheus
+supported.versions=11-12
 '; } # end properties
 
 # shell variables
